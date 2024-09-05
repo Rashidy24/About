@@ -1,0 +1,30 @@
+.cap {
+    text-transform: capitalize;
+}
+.upper {
+    text-transform: uppercase;
+}
+
+.flexy {
+    display: flex;
+}
+.between {
+    justify-content: space-between;
+    align-items: center;
+}
+
+.p-15-inline {
+    padding-inline: 1.5rem;
+}
+
+.fix {
+    position: fixed;
+}
+.relative {
+    position: relative;
+}
+@media (max-width:767px) {
+    .hidden {
+        display: none;
+    }
+}
